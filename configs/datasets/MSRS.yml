@@ -1,0 +1,13 @@
+dataset_index: 10
+
+train:
+
+  - datafolder_name: MSRS/train
+
+val:
+
+  - datafolder_name: MSRS/test
+
+test:
+
+  - datafolder_name: MSRS/test

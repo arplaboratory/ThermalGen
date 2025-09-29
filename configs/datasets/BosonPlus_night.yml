@@ -1,0 +1,35 @@
+dataset_index: 2
+
+train:
+
+  - datafolder_name: STGL
+    database_name: satellite_5
+    queries_name: thermalmappingBosonplusNight_0
+
+  - datafolder_name: STGL
+    database_name: satellite_3
+    queries_name: thermalmappingBosonplusNight_1
+
+  # - datafolder_name: STGL # Not available for public
+  #   database_name: satellite_8
+  #   queries_name: thermalmappingBosonplusNight_2
+
+val:
+
+  # - datafolder_name: STGL # Not available for public. Use train region for val and test
+  #   database_name: satellite_9
+  #   queries_name: thermalmappingBosonplusNight_3
+
+  - datafolder_name: STGL
+    database_name: satellite_5
+    queries_name: thermalmappingBosonplusNight_0
+
+test: # Use val as test
+
+  # - datafolder_name: STGL # Not available for public. Use train region for val and test
+  #   database_name: satellite_9
+  #   queries_name: thermalmappingBosonplusNight_3
+
+  - datafolder_name: STGL
+    database_name: satellite_5
+    queries_name: thermalmappingBosonplusNight_0

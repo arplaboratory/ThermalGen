@@ -1,0 +1,5 @@
+dataset_index: 11
+
+train:
+
+  - datafolder_name: Multispectral/fir

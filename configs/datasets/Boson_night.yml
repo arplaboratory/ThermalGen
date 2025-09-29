@@ -1,0 +1,43 @@
+dataset_index: 0
+
+train:
+
+  - datafolder_name: STGL
+    database_name: satellite_0
+    queries_name: thermalmappingBosonNight_1
+
+  - datafolder_name: STGL
+    database_name: satellite_0
+    queries_name: thermalmappingBosonNight_3
+  
+  - datafolder_name: STGL
+    database_name: satellite_0
+    queries_name: thermalmappingBosonNight_5
+
+val:
+
+  - datafolder_name: STGL
+    database_name: satellite_0
+    queries_name: thermalmappingBosonNight_6
+
+  - datafolder_name: STGL
+    database_name: satellite_0
+    queries_name: thermalmappingBosonNight_7
+
+  - datafolder_name: STGL
+    database_name: satellite_0
+    queries_name: thermalmappingBosonNight_8
+
+test:
+
+  - datafolder_name: STGL
+    database_name: satellite_0
+    queries_name: thermalmappingBosonNight_0
+
+  - datafolder_name: STGL
+    database_name: satellite_0
+    queries_name: thermalmappingBosonNight_2
+
+  - datafolder_name: STGL
+    database_name: satellite_0
+    queries_name: thermalmappingBosonNight_4

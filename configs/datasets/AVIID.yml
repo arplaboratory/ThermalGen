@@ -1,0 +1,13 @@
+dataset_index: 22
+
+train:
+
+  - datafolder_name: AVIID/train
+
+val:
+
+  - datafolder_name: AVIID/test
+
+test:
+
+  - datafolder_name: AVIID/test

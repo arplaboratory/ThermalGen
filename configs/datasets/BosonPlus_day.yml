@@ -1,0 +1,27 @@
+dataset_index: 1
+
+train:
+
+  - datafolder_name: STGL
+    database_name: satellite_2
+    queries_name: thermalmappingBosonplusDay_0
+
+  - datafolder_name: STGL
+    database_name: satellite_3
+    queries_name: thermalmappingBosonplusDay_2
+
+  # - datafolder_name: STGL # Not available for public
+  #   database_name: satellite_6
+  #   queries_name: thermalmappingBosonplusDay_3
+
+val:
+
+  - datafolder_name: STGL
+    database_name: satellite_2
+    queries_name: thermalmappingBosonplusDay_1
+
+test: # Use val as test
+
+  - datafolder_name: STGL
+    database_name: satellite_2
+    queries_name: thermalmappingBosonplusDay_1

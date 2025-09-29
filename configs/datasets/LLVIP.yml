@@ -1,0 +1,13 @@
+dataset_index: 5
+
+train:
+
+  - datafolder_name: LLVIP/train
+
+val:
+
+  - datafolder_name: LLVIP/test
+
+test:
+
+  - datafolder_name: LLVIP/test

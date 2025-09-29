@@ -1,0 +1,9 @@
+dataset_index: 15
+
+val:
+
+  - datafolder_name: METU_VisTIR/val
+
+test:
+
+  - datafolder_name: METU_VisTIR/test

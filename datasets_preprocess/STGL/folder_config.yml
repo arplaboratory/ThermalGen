@@ -1,0 +1,80 @@
+satellite:
+  name: satellite
+  maps:
+    - 20201117_BingSatellite.png
+    - 20201117_ESRI_Satellite.png
+    - ESRI_region1.png
+    - ESRI_region2.png
+    - ESRI_similar_region2.png
+    - ESRI_region1_night.png
+    - not_released_data.png
+    - not_released_data.png
+    - not_released_data.png
+    - not_released_data.png
+  valid_regions:
+    - [0, 0, 9088, 23744]
+    - [0, 0, 9088, 23744]
+    - [0, 0, 7270, 5705]
+    - [0, 0, 12552, 12151]
+    - [0, 0, 8884, 12852]
+    - [0, 0, 6138, 9493]
+    - [0, 0, 5198, 8934]
+    - [0, 0, 11559, 16860]
+    - [0, 0, 5235, 8380]
+    - [0, 0, 3594, 4477]
+
+thermalmappingBosonNight:
+  name: Boson
+  maps:
+    - boson_region1_flight1_night_test.png
+    - boson_region1_flight2_night_train.png
+    - boson_region1_flight3_night_test.png
+    - boson_region1_flight4_night_train.png
+    - boson_region1_flight5_night_test.png
+    - boson_region1_flight6_night_train.png
+    - boson_region1_flight2_night_val.png
+    - boson_region1_flight4_night_val.png
+    - boson_region1_flight6_night_val.png
+  valid_regions:
+    - [750, 1500, 2500, 9400]
+    - [2700, 1800, 5000, 5650] # [2700, 1800, 5000, 9500] half for train half for val
+    - [270, 1500, 2700, 9400]
+    - [2700, 1800, 4200, 5625] # [2700, 1800, 4200, 9450] half for train half for val
+    - [1040, 1400, 2710, 9400]
+    - [2650, 1800, 5100, 5575] # [2650, 1800, 5100, 9350] half for train half for val
+    - [2700, 5650, 5000, 9500] # val
+    - [2700, 5625, 4200, 9450] # val
+    - [2650, 5575, 5100, 9350] # val
+
+thermalmappingDJIDay:
+  name: DJI
+  maps:
+    - DJI_region1_day_train.png
+  valid_regions:
+    - [650, 1700, 4500, 9250]
+
+thermalmappingBosonplusNight:
+  name: Bosonplus
+  maps:
+    - bosonplus_region1_night_train.png
+    - bosonplus_region2_night_train.png
+    - not_released_data.png
+    - not_released_data.png
+  valid_regions:
+    - [2500, 700, 4000, 8500]
+    - [4600, 3250, 8500, 8900]
+    - [0, 0, 5235, 8380]
+    - [0, 0, 3594, 4477]
+
+thermalmappingBosonplusDay:
+  name: Bosonplus
+  maps:
+    - bosonplus_region1_day_train_val.png # half for train half for val
+    - bosonplus_region1_day_train_val.png # val
+    - bosonplus_region2_day_train.png
+    - not_released_data.png
+  valid_regions:
+    - [1300, 1200, 5900, 3000]
+    - [1300, 3000, 5900, 4800]
+    - [4600, 3250, 8500, 8900]
+    - [0, 0, 5198, 8934]

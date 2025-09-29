@@ -1,0 +1,7 @@
+dataset_index: 3
+
+train:
+
+  - datafolder_name: STGL
+    database_name: satellite_1
+    queries_name: thermalmappingDJIDay_0

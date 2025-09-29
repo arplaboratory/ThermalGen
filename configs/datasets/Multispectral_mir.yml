@@ -1,0 +1,5 @@
+dataset_index: 12
+
+train:
+
+  - datafolder_name: Multispectral/mir

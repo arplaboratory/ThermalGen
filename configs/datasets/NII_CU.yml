@@ -1,0 +1,13 @@
+dataset_index: 6
+
+train:
+
+  - datafolder_name: NII_CU/train
+
+val:
+
+  - datafolder_name: NII_CU/val
+
+test:
+
+  - datafolder_name: NII_CU/val

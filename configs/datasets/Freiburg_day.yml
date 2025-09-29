@@ -1,0 +1,13 @@
+dataset_index: 8
+
+train:
+
+  - datafolder_name: Freiburg/train/day
+
+val:
+
+  - datafolder_name: Freiburg/test/day
+
+test:
+
+  - datafolder_name: Freiburg/test/day

@@ -1,0 +1,13 @@
+dataset_index: 21
+
+train:
+
+  - datafolder_name: FLIR/train
+
+val:
+
+  - datafolder_name: FLIR/validation
+
+test:
+
+  - datafolder_name: FLIR/validation

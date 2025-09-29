@@ -1,0 +1,5 @@
+dataset_index: 4
+
+train:
+
+  - datafolder_name: Caltech

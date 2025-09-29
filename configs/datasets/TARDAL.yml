@@ -1,0 +1,13 @@
+dataset_index: 7
+
+train:
+
+  - datafolder_name: TARDAL/M3FD_Detection/train
+
+val:
+
+  - datafolder_name: TARDAL/M3FD_Detection/test
+
+test:
+
+  - datafolder_name: TARDAL/M3FD_Detection/test
