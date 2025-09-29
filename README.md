@@ -108,3 +108,7 @@ To add your own satellite map for generation, revise the satellite entry under d
 (2) Specify the generating region (top, left, bottom, right) in satellite/valid_regions.  
 (3) Use the corresponding index in this config to update configs/generate/sit_l2_concat_2.yml.  
 (4) Run the generate_map script.  
+
+## Acknowledgement
+
+We thank the folowing projects for their open-source code: [SiT](https://github.com/willisma/SiT), [LDM](https://github.com/CompVis/latent-diffusion).
