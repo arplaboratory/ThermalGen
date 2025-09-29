@@ -81,7 +81,7 @@ Please find the example code in [train_generate.sh](train_generate.sh)
 
 In generate_map.py, we provide a script to stitch generated thermal images into a large map using a given satellite map.
 
-For example, if you want to use the ThermalGen-L/2-concat model to generate satellite 1, 4, and 7 (indexes in datasets_preprocess/STGL/folder_config.yml), refer to configs/generate/sit_l2_concat_2.yml:
+For example, if you want to use the ThermalGen-L/2-concat model to generate satellite 1 (index in datasets_preprocess/STGL/folder_config.yml), refer to configs/generate/sit_l2_concat_2.yml:
 
 ```
 generate:
@@ -89,8 +89,6 @@ generate:
   dataset_index: 1
   database_names: 
     - satellite_1
-    - satellite_4
-    - satellite_7
 ```
 
 Then run the following command:
