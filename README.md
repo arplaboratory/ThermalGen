@@ -1,6 +1,6 @@
 # ThermalGen: Style-Disentangled Flow-Based Generative Models for RGB-to-Thermal Image Translation
 
-[![arXiv](https://img.shields.io/badge/arXiv-2301.01234-B31B1B.svg)](https://arxiv.org/abs/2301.01234)
+[![arXiv](https://img.shields.io/badge/arXiv-2509.24878-B31B1B.svg)](https://www.arxiv.org/abs/2509.24878)
 [![Hugging Face](https://img.shields.io/badge/Hugging%20Face%20Dataset-ThermalGen-blue.svg)](https://huggingface.co/datasets/xjh19972/ThermalGen-Dataset)
 [![Hugging Face](https://img.shields.io/badge/Hugging%20Face%20Model-ThermalGen-blue.svg)](https://huggingface.co/collections/xjh19972/thermalgen-models-68d863b498a89060c05fae2f)
 [![Model](https://img.shields.io/badge/Model-ThermalGen-green.svg)](https://drive.google.com/file/d/13Og-MmrYu27AH51FI6EDtlAyGADvplxr/view?usp=drive_link)
