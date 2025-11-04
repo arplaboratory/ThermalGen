@@ -10,11 +10,13 @@ This is the official repository for [ThermalGen: Style-Disentangled Flow-Based G
 Related works:  
 
 ```
-@article{xiao2025thermalgen,
-  title={ThermalGen: Style-Disentangled Flow-Based Generative Models for RGB-to-Thermal Image Translation},
-  author={Xiao, Jiuhong and Nayak, Roshan and Zhang, Ning and Tortei, Daniel and Loianno, Giuseppe},
-  journal={arXiv preprint arXiv:2509.24878},
-  year={2025}
+@inproceedings{
+xiao2025thermalgen,
+title={ThermalGen: Style-Disentangled Flow-Based Generative Models for {RGB}-to-Thermal Image Translation},
+author={Jiuhong Xiao and Roshan Nayak and Ning Zhang and Daniel Toertei and Giuseppe Loianno},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=o0JSYq1TQ4}
 }
 ```
 
